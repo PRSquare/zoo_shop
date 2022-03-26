@@ -1,0 +1,48 @@
+#loginreg{
+  background: linear-gradient(#334e2f55, #334e2fcc);
+  position: relative;
+}
+#login{
+  padding: 10%;
+}
+#registrate{
+  padding: 10%;
+}
+#suButton{
+  background-color: #787;
+  height: 50px;
+  text-align: center;
+  float: right;
+  width: 50%;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  color: #cfcda7;
+}
+#siButton{
+  background-color: #334e2fcc;
+  color: #cfcda7;
+  height: 50px;
+  text-align: center;
+  float: left;
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+p.input{
+  cursor: default;
+}
+input.input{
+  background-color: #fff8;
+  border-radius: 10px 0px;
+  width: 50%;
+  float: right;
+}
+.sbutton{
+  border-radius: 5px 0px;
+  display: block;
+  cursor: pointer;
+	margin: auto;
+	background-color: #0009;
+  color: #DFD;
+	width: 30%;
+}

@@ -1,0 +1,36 @@
+#comment_input{
+	margin: 1% 5%;
+	width: 90%;
+	resize: none;
+	height: 100px;
+}
+#comment_input:focus{
+	background-color: #efffef;
+	outline: none;
+	border-radius: 5px;
+}
+#lac_txt{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+#lac_button{
+	display: block;
+	margin: auto;
+    background-color: #ded;
+    align-content: center;
+    text-align: center;
+
+    border-radius: 10px;	    
+    padding: 5px 10px;
+    transition: 0.2s;
+    cursor: pointer;
+    border: 2px solid #393;
+
+}
+#lac_button:hover{
+	background-color: #393;
+    color: #fff;
+    transition: 0.2s;
+    border: 2px solid #ada;
+}

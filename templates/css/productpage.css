@@ -1,0 +1,61 @@
+.b_text{
+	display: inline;
+}
+.buy_button{
+	float: right;
+}
+
+.prod_image{
+	float: left;
+	display: block;
+	margin-right: 10px;
+	width: 30%;
+	border-radius: 10px;
+}
+.product{
+	background-color: #cfcda788;
+	/*background: linear-gradient(#fff5, #4d49);*/
+	padding: 1%;
+	overflow: hidden;
+	transition: 1;
+}
+.prod_name{
+	color: black;
+	transition: 0.1s;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 120%;
+	pointer-events: none;
+	cursor: default;
+}
+p.prod_desc{
+	cursor: default;
+}
+.prod_text{
+	width: 75%;
+}
+#comments{
+	background-color: #cfcda788;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#leave_a_comment{
+	background-color: #cfcda788;
+}
+div.comment{
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 10px 10%;
+
+	padding-left: 2%;
+	padding-right: 2%;
+}
+b.comment_b{
+	margin-left: 1%;
+}
+.discount{
+	color: red;
+	transition: 0.2s;
+}

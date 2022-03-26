@@ -1,0 +1,13 @@
+div.user_info{
+	width: 200px;
+	background: linear-gradient(#334e2f55, #334e2fcc);
+	text-align: center;
+	border-radius: 0px 0px 10px 10px;
+	padding: 10px 0px;
+}
+#username{
+	margin: 20px;
+}
+#exit_button{
+	margin-top: 10px;
+}

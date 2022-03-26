@@ -1,0 +1,136 @@
+header {
+	z-index: 3;
+	top: 0%;
+	background-color: #334e2f55;
+	width: 100%;
+	height: 80px;
+	display: inline-block;
+	text-align: center;
+}
+
+header.main-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.icons {
+	display: flex;
+	width: 10%;
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+a.main-header{
+	text-decoration: none;
+	color: black;
+	font-size: 3em;
+	transition: 0.5s;
+}
+a.main-header:hover{
+	color: #334e2f;
+	transition: 0.5s;
+}
+#user_page{
+	position: absolute;
+	right: 0px;
+	top: 80px;
+	z-index: 100;
+	display: none;
+}
+div.menu_pic {
+	width: 100%;
+}
+img.menu_pic{
+	width: 80%;
+
+	cursor: pointer;
+	transition: 0.5s;
+}
+img.menu_pic:hover{
+	transition: 0.5s;
+	filter: opacity(50%);
+}
+#menu_link{
+	display: block;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+	margin: 20px 20px;
+}
+#menu_link:hover{
+	color: #334e2f;
+	transition: 0.5s;
+}
+.main-footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: #a2a66b;
+	width: 100%;
+}
+html{
+	height: 100%;
+}
+body{
+	min-height: 85%;
+	background-image: url(/resources/background/background.jpg);
+	background-repear: repeat;
+	background-size: 50%;
+	background-attachment: scroll;
+
+
+	position: relative;
+	/*filter: blur(5px);*/
+	/*background: linear-gradient( #AFA, #5F5 );*/
+	padding-bottom: 5%;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.buy_button{
+    margin: auto;
+    background-color: #f3eee8;
+    width: 70%;
+    max-width: 300px;
+    align-content: center;
+    text-align: center;
+
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+    border: 2px solid #6c8744;
+}
+.buy_button:hover{
+    background-color: #334e2f;
+    color: #fff;
+    transition: 0.2s;
+    border: 2px solid #ada;
+}
+.buy_button:hover *.discount{
+    color: white;
+    text-shadow: 1px 0 #f77, 
+    0 1px #f77, 
+    -1px 0 #f77, 
+    0 -1px #f77;
+    transition: 0.2s;
+}
+.discount{
+    color: red;
+    transition: 0.2s;
+}

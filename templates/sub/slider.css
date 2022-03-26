@@ -1,0 +1,57 @@
+.images{
+  width: 1000px;
+  height: 550px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.contImg{
+  width: 100%;
+  position: absolute;
+}
+.imgdiv{
+  width: 100%;
+  position: absolute;
+  object-fit: fill;
+  transition: 2s;
+}
+.textOnImg{
+  width: 100%;
+  top: 430px;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding: 10px 0;
+  position: absolute;
+  background: linear-gradient(#0000, #0009);
+}
+#goFront{
+  filter: opacity(10%);
+  position: absolute;
+  z-index: 2;
+  width: 10%;
+  height: 550px;
+  transition: 1s;
+
+}
+#goFront:hover{
+  filter: opacity(100%);
+  transition: 1s;
+}
+#goBack{
+  filter: opacity(10%);
+  position: absolute;
+  width: 10%;
+  z-index: 2;
+  height: 550px;
+  right: 0;
+}
+#goBack:hover{
+  filter: opacity(100%);
+  transition: 1s;
+}
+.arrowImg{
+  width: 100%;
+  margin-top: 200px;
+  display: block;
+}
