@@ -1,3 +1,5 @@
+Заголовок и описание сайта меняются в файлах resources/text/header.txt и mainpage.txt соответственно
+
 Поменять данные на свои в scripts/mysql.php ( 3-я строчка )
 	user - имя пользователя
 	password - пароль

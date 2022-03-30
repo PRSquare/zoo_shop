@@ -11,7 +11,15 @@
 	
 	$user_page = getUserPage($db_link);
 
-	$page_content = renderTemplate('templates/mainpage.php');
+	$pords_count = 4; // Колличество выводимых продуктов
+	$products = safety_db_query( $db_link, "SELECT * FROM products WHERE count > 0 ORDER BY rand() LIMIT ?", "i", $pords_count);
+
+	$desc_header = str_replace( "\n", "<br>", implode ( file('resources/text/header.txt') ) );
+	$desc_body = str_replace( "\n", "<br>", implode ( file('resources/text/mainpage.txt') ) );
+
+	$page_content = renderTemplate('templates/mainpage.php', [
+		'products' => $products, 'desc_header' => $desc_header, 'desc_body' => $desc_body 
+	]);
 
 	$layout_content = renderTemplate('templates/layout.php', ['title' => 'Petsburg', 'user_page'=>$user_page, 'content' => $page_content]);
 
